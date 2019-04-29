@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kangaru
+Upstream-Contact: Guillaume Racicot <gufideg@gmail.com>
+Source: https://github.com/gracicot/kangaru
+
+Files: *
+Copyright: Guillaume Racicot <gufideg@gmail.com>
+License: MIT
+
+Files: debian/
+Copyright: 2019 Timo Furrer <tuxtimo@gmail.com>
+License: MIT

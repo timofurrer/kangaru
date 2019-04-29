@@ -1,0 +1,17 @@
+Source: kangaru
+Maintainer: Timo Furrer <tuxtimo@gmail.com>
+Section: devel
+Priority: optional
+Build-Depends: debhelper (>= 10),
+ cmake
+Standards-Version: 3.9.6
+Homepage: https://github.com/timofurrer/kanguru
+
+Package: libkangaru-dev
+Architecture: any
+Depends: ${misc:Depends}
+Description: A dependency injection container for C++11, C++14 and later
+ Kangaru is an inversion of control container for C++11, C++14 and later.
+ It supports features like operation between containers, injection
+ via function parameter, automatic call of member functions
+ on instance creation, autowiring and much more!
